@@ -1,0 +1,104 @@
+  :root {
+    --main-color: #cb085b;
+    --logopurple: #ffffff;
+    --nav--color: #432e3e;
+    --nav--hover--color: var(--main-color);
+    --phone--menu--background: var(--main-color);
+    --back-to-top: var(--main-color);
+    --mainHome_leftss-p: var(--main-color);
+    --decoration: var(--main-color);
+    --svg-fill-color: var(--main-color);
+    --number-color: var(--main-color);
+    --discount: var(--main-color);
+    --mailimgbottom: var(--main-color);
+    --footer-icon-color: var(--main-color);
+    --wefqwdwwdee: var(--main-color);
+    --nav_active: var(--main-color);
+    --scrollbar: var(--main-color);
+    --scrollbar-select: var(--main-color);
+    --logo--second--clor: var(--main-color);
+  }
+  
+  .logocolor {
+    color:var(--main-color);
+}
+  .nav {
+    background: var(--nav--color);
+  }
+  
+  .nav__item.active {
+    color: var(--logopurple);
+    background-color: var(--nav_active);
+  }
+  
+  strong a {
+    color: var(--logopurple);
+  }
+  
+  .wefqwdwwdee {
+    color: var(--wefqwdwwdee);
+  }
+  
+  .sadweewes svg {
+    fill: var(--footer-icon-color);
+  }
+  
+  .mailimgbottom {
+    fill: var(--mailimgbottom);
+  }
+  
+  .label-danger {
+    background-color: var(--number-color);
+  }
+  
+  .numbers_services {
+    background-color: var(--number-color);
+  }
+  
+  .svg-repo-icon-carrier path {
+    fill: var(--svg-fill-color);
+  }
+  
+  body {
+    background-color: var(--all-colors);
+  }
+  
+  .nav {
+    color: var(--nav--color);
+  }
+  
+  .logo {
+    color: var(--logo--first--clor);
+    background-color: var(--logo--second--clor);
+  }
+  
+  .phone-menu {
+    background-color: var(--phone--menu--background);
+  }
+  
+  .back-to-top {
+    background-color: var(--back-to-top);
+  }
+  
+  .mainHome_leftss p {
+    color: var(--mainHome_leftss-p);
+  }
+  
+  ::selection {
+    background-color: var(--scrollbar-select);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar);
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background-color: var(--scrollbar);
+  }
+  
+  /* #####################images################## */
+  .mainHome {
+    background-image: url("../images/bacgroundss.webp");
+    background-position: left 500px;
+  }
+  

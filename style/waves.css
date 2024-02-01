@@ -1,0 +1,53 @@
+.intro__waves {
+    position: absolute;
+    bottom: var(--b-intro-waves, -43px);
+    left: 0;
+    width: 100%;
+    height: var(--h-intro-waves, 26px);
+    overflow: hidden;
+  }
+  .intro__waves::before,
+  .intro__waves::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5px;
+    display: block;
+    width: 98.9%;
+    height: 100%;
+    background-repeat: repeat-x;
+    background-size: 50% 100%;
+    content: '';
+  }
+
+  .intro__waves::before {
+
+
+    animation: wave-animation-right 8s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+    animation-delay: 4s;
+  }
+
+  .intro__waves::after {
+    background-image: url("./images/waves\ before.svg");
+    animation: wave-animation-left 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite
+  }
+
+  @keyframes wave-animation-left {
+    0% {
+      background-position: 0 0
+    }
+
+    100% {
+      background-position: -100% 0
+    }
+  }
+
+  @keyframes wave-animation-right {
+    0% {
+      background-position: 0 0;
+    }
+
+    100% {
+      background-position: 100% 0;
+    }
+  }

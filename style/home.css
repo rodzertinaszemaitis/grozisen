@@ -1,0 +1,230 @@
+.mainscreen {
+  font-family: Aspekta;
+}
+html{
+  letter-spacing: 1px;
+  color: rgb(0 0 0 / 62%);
+  line-height: 1.9em;
+  font-size: 16px;
+}
+.all_screnn_padding{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.main_screen{
+  backdrop-filter: blur(2px); /* Keiskite px reikšmę pagal savo poreikius */
+  -webkit-backdrop-filter: blur(5px); 
+  width: 53vw;
+  background-color: #acacac2e;
+  /* content: ''; */
+  border-radius: 15px;
+  /* display: block; */
+  padding: 20px;
+  /* position: absolute; */
+  border: 1px solid;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition-duration: inherit;
+  transition-property: opacity;
+}
+.aboutus_foto_div {
+    position: relative;
+    width: 100%;
+}
+.susisiekti {
+  color: white;
+}
+.mainHome {
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 98vh;
+  display: flex;
+  margin: 5px;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.mainHome_leftss{
+  position: relative;
+}
+.main_left {
+    width: 65vw;
+}
+.mainHome_leftss{
+  height: 120px;
+}
+.mainHome_leftss h1{
+  font-size: 48px;
+  white-space: nowrap;
+}
+.mainHome_leftss p{
+  font-size: 40px;
+  white-space: nowrap;
+ 
+}
+
+.main_left_container{
+
+}
+
+.main_right {
+  flex-direction: column;
+  width: 50vw;
+}
+
+.paintmages {
+  padding-top: 20px;
+  object-fit: cover;
+  width: 90%;
+  padding: 20px;
+}
+
+.aaaa {
+  background-color: var(--decoration);
+  height: 12px;
+  margin: 0 auto 0 0;
+  -webkit-transform-origin: right center;
+  transform-origin: right center;
+  width: 124px;
+  margin-left: 20px;
+}
+
+.main_p {
+  color: #ffffff;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.mai_title {
+    height: 52px;
+    position: relative;
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.main_buttons {
+  align-items: center;
+  background: rgba(52, 59, 62, 0.03);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  border: 1px solid white;
+  height: 46px;
+  max-width: 200px;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+@media (min-width: 500px) {
+  .service-category {
+    margin-left: -167%;
+  }
+  
+}
+@media (max-width: 660px) {
+  .main_screen {
+    width: 90vw;
+    margin: 20px;
+  
+}
+
+}
+@media (max-width: 700px) {
+
+  .aaaa {
+ margin-top: 20px;
+  }
+
+}
+@media (max-width: 460px) {
+  .main_right {
+    width: 100vw;
+  }
+  .paslaugos h2 {
+    min-width: 60%;
+  }
+
+
+
+  .mai_title {
+    height: 83px;
+  }
+
+  .main_buttons {
+    width: 100%;
+  }
+
+  .mainHome {
+    margin-top: 60px;
+  }
+
+}
+@media (max-width: 1100px) {
+  .main_left {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 920px) {
+  .top-bar {
+    position: fixed;
+  }
+  .intro__waves {
+    display: none;
+  }
+  .mainHome {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 88vh;
+    margin-top: 11vh;
+    margin: 5px;
+    margin-top: 11vh;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+}
+
+@media (max-width: 1000px) {
+  .main_left {
+    padding-left: 10px;
+  }
+  
+
+  .paintmages {
+    display: none;
+  }
+  .mainHome {
+    flex-direction: column;
+  }
+
+  .main_left {
+    width: 100%;
+  }
+
+  .main_left_top {
+    margin-top: 0px;
+  }
+
+  .main_right {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mainaboutus {
+    flex-direction: column;
+  }
+}

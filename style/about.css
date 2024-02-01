@@ -1,0 +1,66 @@
+.mainaboutus{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background:#f4f7fa;
+  padding: 20px;
+  }
+  .mainabout_left{
+ 
+    width: 50%;
+  }
+  .mainabout_right{
+ 
+    width: 50%;
+  }
+
+#service, #reviews, #contact, #home, #about, #chooseus{
+  padding-top: 1px;
+}
+.Title{
+  margin-top: 50px;
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+  padding-left: 40px;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+
+}
+.aboutp{
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: rgb(0 0 0 / 62%);
+  line-height: 1.9em;
+  font-size: 16px;
+  padding: 20px;
+  text-align: justify;
+  /* font-family: serif; */
+}
+.aboutus_foto{
+  background-position: 50% 50%;
+    border: 20px solid #fff;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+ 
+@media(max-width:700px) {
+.mainaboutus {
+flex-direction: column-reverse;
+}
+.mainabout_left {
+width: 100%;
+}
+.mainabout_right {
+width: 100%;
+}
+.mainaboutus{
+
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+
+}

@@ -1,0 +1,111 @@
+.footer_below{
+    display: flex;
+
+}
+
+.footer_below_zero, .footer_below_first, .footer_below_second, .footer_below_thirth{
+padding: 20px;
+/* margin: 10px; */
+/* flex: 0 33.333333%; */
+width: 33.333333%;
+min-height: 234px;
+
+
+
+}
+
+
+
+
+
+  .footer_below_img{
+   width: 30px;
+height: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
+
+  }
+  .footer_below_column{
+    display: flex;
+flex-direction: column;
+padding: 10px;
+  }
+
+.footer_below_call_find_mail{
+color: #ffffff;
+font-size: 15px;
+font-weight: 600;
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+  }
+.logoooasdff{
+color: white;
+font-size: 25px;
+font-family: fantasy;
+align-items: center;
+width: 100%;
+
+font-size: 25px;
+font-family: fantasy;
+
+align-items: center;
+width: 100%;
+}
+.footer_logo_p{
+margin-bottom: 14px;
+font-size: 11px;
+color: #7e7e7e;
+line-height: 18px;
+}
+.followus_social{
+color: #7c7c7c;
+display: block;
+font-size: 15px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 10px;
+
+}
+.footer_logor{
+margin-bottom: 20px;
+}
+.ftco-animate {
+list-style: none;
+margin: -4px -2px -3px -11px;
+display: inline-block;
+}
+.information{
+color: #7e7e7e;
+margin-top: 10px;
+}
+
+@media(max-width:600px) {
+  .footer_below{
+  flex-direction: column;
+    }
+    .footer_below{
+display: flex;
+align-items: flex-start;
+
+}
+.footer_below_zero, .footer_below_first, .footer_below_second, .footer_below_thirth {
+padding: 20px;
+width: 100%;
+min-height: 234px;
+}
+.tinder_first, .tinder_second, .tinder_thirth {
+width: 100%;
+justify-content: center;
+}
+.tinder_img {
+
+width: 100%;
+height: 100px;
+object-fit: cover;
+margin-left: -10px;
+}
+  
+  }
