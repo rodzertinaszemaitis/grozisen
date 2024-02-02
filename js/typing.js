@@ -1,5 +1,5 @@
 var typeText = document.querySelector(".typeText");
-var textToBeTyped = "Threat procedures!";
+var textToBeTyped = "Grožio paslaugos!";
 var index = 0,
   isAdding = true;
 
